@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/riyadhalnur/base64Image.svg?branch=master)](https://travis-ci.org/riyadhalnur/base64Image)  
+[![Build Status](https://travis-ci.org/wrannaman/base64Image.svg?branch=master)](https://travis-ci.org/wrannaman/base64Image)  
 
 base64Image
 =================
