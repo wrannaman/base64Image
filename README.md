@@ -1,12 +1,12 @@
-[![Build Status](https://travis-ci.org/wrannaman/base64Image.svg)](https://travis-ci.org/wrannaman/base64Image)  
+[![Build Status](https://travis-ci.org/wrannaman/base64image.svg)](https://travis-ci.org/wrannaman/base64image)  
 
-base64Image
+base64image
 =================
 
 Download images from remote URLs or use local images and encode/decode them to base64
 
 To install  
-`npm install base64Image --save`  
+`npm install base64image --save`  
 
 To run tests  
 `npm test`  
@@ -14,7 +14,7 @@ To run tests
 ### Usage  
 
 Require the library in your .js file  
-`var base64 = require('base64Image');`  
+`var base64 = require('base64image');`  
 
 #### Download and encode an image  
 ```
