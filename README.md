@@ -49,7 +49,7 @@ base64.base64encoder(path, options, function (err, image) {
 
 #### Decode and write a base64 encoded image to disk  
 ```  
-var options = {filename: 'test'};
+var options = {filename: 'test', filePath: './tmp/uploads'};
 var imageData = new Buffer('/9j/4AAQSkZJRgABAQAAAQABAAD...', 'base64');
 
 base64.base64decoder(imageData, options, function (err, saved) {
@@ -60,7 +60,7 @@ base64.base64decoder(imageData, options, function (err, saved) {
 
 ##### Parameters  
  - `imageData` (buffer) - the base64 image buffer.  
- - `options` (object) - contains the 'filename' property; this will be the written image file.  
+ - `options` (object) - contains the 'filename' property; this will be the written image file.  Also, you can specify a filePath which takes a directory path to write the file to. The directory path must exist already ( @TODO ).
  - `callback` (function) - the callback will contain the err object and the 'successful save' string.
 
 ### License  
@@ -69,4 +69,4 @@ This library is licensed under the MIT license.
 ### Issues  
 Report a bug in the issues.   
 
-Lovingly crafted in Dhaka, Bangladesh by [Riyadh Al Nur](http://blog.verticalaxisbd.com)
+Updated by Wrannaman & forked From [Riyadh Al Nur](http://blog.verticalaxisbd.com)
